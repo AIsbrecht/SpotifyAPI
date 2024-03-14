@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to My Spotify App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Login with Spotify</h2>
+        <a href="{{ auth_url }}" class="btn">Login to Spotify</a>
+    </div>
+</body>
+</html>
